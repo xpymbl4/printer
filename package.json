@@ -1,0 +1,6 @@
+{
+"name": "socketIO-printer",
+"version": "0.0.1",
+"description": "socket.io printer app",
+"dependencies": {}
+}

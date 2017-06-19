@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>
+</title>
+<link rel='stylesheet' href='lasermenu.css'>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/Connector.js"></script>
+<script src="js/ConnectModel.js"></script>
+<script src="js/ConnectController.js"></script>
+<script src='js/three.js'></script>
+<script src='js/OrbitControls.js'></script>
+<script src='js/OBJLoader.js'></script>
+<script src='js/MTLLoader.js'></script>
+  <script src='js/STLLoader.js'></script>
+    <script src='js/tracer.js'></script>
+</head>
+
+<body>
+  <div id='control'>left mouse click rotate, right mouse click pan, mouse wheel zoom in/out</div>
+  <div id='imageshow' class='imageshow'>
+    <img data-src="" alt="">
+  <img data-src="lineDrawings/lens.png" alt="">
+  <img data-src="lineDrawings/mirror.png" alt="">
+  <img data-src="lineDrawings/xmotor.png" alt="">
+  <img data-src="lineDrawings/zmotor.png" alt="">
+</div>
+  
+<div id='menu'>
+<li><button class="accordion">X-Axis</button>
+<div class="panel">
+<ul>
+  <li id='xmotor'>motor</li>
+  <li id='xbelt'>belt</li>
+   <li id='xrails'>rails</li>
+   
+</ul>
+</div>
+</li>
+
+<li>
+<button class="accordion">Y-Axis</button>
+<div class="panel">
+<ul>
+  <li id='ymotor'>motor</li>
+  <li id='ybelt'>belt</li>
+  <li id='yrails'>rails</li>
+ 
+</ul>
+</div>
+</li>
+
+<li>
+<button class="accordion">Z-Axis</button>
+<div class="panel">
+  <ul>
+  <li id ='zmotor'>motor</li>
+    <li id ='zbelt'>belts</li>
+      <li id ='zscrews'>lead screws and pulleys</li>
+</ul>
+</div>
+</li>
+
+<li>
+<button class="accordion">Laser Bed</button>
+<div class="panel">
+<ul>
+  <li id='bedrulers'>rulers</li>
+  <li id='bedhoneycomb'>honeycomb</li>
+    <li id='platform'>platform</li>
+      <li id='bed'>bed</li>
+</ul>
+</div>
+</li>
+
+<li>
+<button class="accordion">Laser Optics</button>
+<div class="panel">
+<ul>
+  <li id='lens'>lens/mirror</li>
+ <li id='xmirror'>mirror</li>
+</ul>
+</div>
+</li>
+
+<!-- <li>
+<button class="accordion">Sensors</button>
+<div class="panel">
+<ul>
+  <li id='interlocks'>interlocks</li>
+    <li id='xlimit'>x limit switch</li>
+        <li id='ylimit'>y limit switch</li>
+               <li id='zlimit'>z limit switch</li>
+</ul>
+</div>
+</li>
+
+<li>
+<button class="accordion">Compressed Air</button>
+<div class="panel">
+  <ul>
+  <li id='airlens'>compressed air for carriage</li>
+    <li id='airmirror'>compressed air for mirror</li>
+      <li id='airwindow'>compressed air for window</li>
+</ul>
+</div>
+</li>
+
+<li>
+<button class="accordion">Inputs</button>
+<div class="panel">
+    <ul>
+  <li id='usbcord'>USB connection</li>
+   <li id='powercord'>Power Connection</li>
+      <li id='air'>Compressed Air</li>
+
+
+</ul>
+</div>
+</li>
+
+
+<li>
+<button class="accordion">Exhaust</button>
+<div class="panel">
+    <ul>
+  <li id='exhaustplenum'>Plenum</li>
+    <li id='exhausthose'>Hoses</li>
+
+</ul>
+</div>
+</li>
+
+<li>
+<button class="accordion">Boards/Pads</button>
+<div class="panel">
+  <ul>
+  <li id='controlpad'>control pad</li>
+    <li id='upperflex'>upper flex board</li>
+      <li id='lowerflex'>lower flex board</li>
+</ul></div>
+</li> -->
+</div>
+
+ <script src='js/laserparts.js'></script>
+<script src='js/lasermenu.js'></script>
+<script src='js/lasermodel.js'></script>
+ <script src='js/images.js'></script>
+</body>
+
+</html>
