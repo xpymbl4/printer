@@ -1,6 +1,15 @@
 {
-"name": "socketIO-printer",
-"version": "0.0.1",
-"description": "socket.io printer app",
-"dependencies": {}
+  "name": "socketIO-printer",
+  "version": "1.0.0",
+  "description": "socket.io printer app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "flashcraft.org",
+  "license": "MIT"
 }

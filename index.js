@@ -6,7 +6,7 @@ var io = require('socket.io')(http);
 app.use(express.static('site/laser/'));
 
 app.get('/', function(req, res){
-	res.sendFile('C:/inetpub/wwwroot/xrm/printer/site/laser/laser.html');
+	res.sendFile('site/laser/laser.html');
 });
 
 io.on('connection', function(socket){
@@ -19,6 +19,6 @@ io.on('connection', function(socket){
 	});
 });
 
-http.listen(8080, function(){
-	console.log('listening on *:8080');
+http.listen(3002, function(){
+	console.log('listening on *:3002');
 });
